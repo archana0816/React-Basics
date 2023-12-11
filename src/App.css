@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+form{
+  height:550px;
+  width:450px;
+  margin-left: 530px;
+  text-align: center;
+  border:1px dashed black;
+  background-color:darksalmon ;
+}
+.r1{
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.r2{
+  padding-left: 100px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
