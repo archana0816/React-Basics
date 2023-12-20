@@ -1,26 +1,18 @@
 import React from 'react'
-import ComponentLifeCycle from './Component/Day7/ComponentLifeCycle'
-import LifeCycleFunctional from './Component/Day7/LifeCycleFunctional'
-import ErrorBoundary from './Component/Day7/ErrorBoundary'
-import Exception from './Component/Day7/Exception'
-import TryCatch from './Component/Day7/TryCatch'
+import GetAxios from './Component/Day 8/GetAxios'
+import PostAxios from './Component/Day 8/PostAxios'
+import PutAxios from './Component/Day 8/PutAxios'
+import DeleteAxios from './Component/Day 8/DeleteAxios'
 
 
 
 export default function App() {
   return (
     <div>
-      <ErrorBoundary>
-        <Exception heroName="RP17"></Exception>
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Exception heroName="Gill"></Exception>
-      </ErrorBoundary> 
-
-      <TryCatch veg="Apple"></TryCatch>
-
-      <ComponentLifeCycle/>
-      <LifeCycleFunctional/>
+      <GetAxios/>
+      <PostAxios/>
+      <PutAxios/>
+      <DeleteAxios/>
     </div>
   )
 }
